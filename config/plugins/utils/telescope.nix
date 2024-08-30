@@ -44,13 +44,13 @@
           desc = "+buffer";
         };
       };
-      "<leader>ff" = {
+      "<leader>sf" = {
         action = "find_files";
         options = {
           desc = "Find project files";
         };
       };
-      "<leader>fr" = {
+      "<leader>sg" = {
         action = "live_grep";
         options = {
           desc = "Find text";

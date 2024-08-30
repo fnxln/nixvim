@@ -19,7 +19,7 @@
         no_bold = false;
         no_italic = false;
         no_underline = false;
-        transparent_background = true;
+        transparent_background = false;
         color_overrides = {
           all = {
             base = "#000000";
