@@ -17,6 +17,11 @@
         tsserver = {enable = true;};
         ansiblels = {enable = true;};
         jsonls = {enable = true;};
+        rust-analyzer = {
+          enable = true;
+          installCargo = false;
+          installRustc = false;
+        };
         helm-ls = {
           enable = true;
           extraOptions = {
