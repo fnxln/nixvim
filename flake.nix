@@ -11,7 +11,8 @@
 
   outputs = {
     nixpkgs,
-    nixvim, flake-parts,
+    nixvim,
+    flake-parts,
     ...
   } @ inputs:
     flake-parts.lib.mkFlake {inherit inputs;} {
