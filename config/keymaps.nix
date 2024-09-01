@@ -306,12 +306,6 @@
       options = {desc = "Go to Right Window";};
     }
     {
-      mode = "t";
-      key = "<C-/>";
-      action = "<cmd>close<cr>";
-      options = {desc = "Hide Terminal";};
-    }
-    {
       mode = "n";
       key = "<leader>ww";
       action = "<C-W>p";

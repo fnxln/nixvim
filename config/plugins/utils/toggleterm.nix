@@ -24,7 +24,7 @@ _: {
     }
     {
       mode = "n";
-      key = "<leader>th";
+      key = "<C-/>";
       action = "<cmd>ToggleTerm direction=horizontal<cr>";
       options = {
         desc = "Toggle Horizontal Terminal Window";
