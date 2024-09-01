@@ -88,6 +88,10 @@
             action = "workspace_symbol";
             desc = "Workspace Symbol";
           };
+          "<leader>ca" = {
+            action = "code_action";
+            desc = "Code Action";
+          };
           "<leader>cr" = {
             action = "rename";
             desc = "Rename";
