@@ -10,4 +10,21 @@ _: {
       extra_curl_params = [];
     };
   };
+  keymaps = [
+    {
+      key = "<leader>gt";
+      action = "<CMD>ChatGPT<CR>";
+      options.desc = "Toggle ChatGPT Chat Window";
+    }
+    {
+      key = "<leader>ge";
+      action = "<CMD>ChatGPTEditWithInstructions<CR>";
+      options.desc = "Toggle ChatGPT Edit Window";
+    }
+    {
+      key = "<leader>g<tab>";
+      action = "<CMD>ChatGPTCompleteCode<CR>";
+      options.desc = "ChatGPT Complete Code";
+    }
+  ];
 }
