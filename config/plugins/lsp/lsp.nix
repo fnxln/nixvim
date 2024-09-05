@@ -16,6 +16,7 @@
         terraformls = {enable = true;};
         tsserver = {enable = true;};
         ansiblels = {enable = true;};
+        kotlin-language-server = {enable = true;};
         jsonls = {enable = true;};
         rust-analyzer = {
           enable = true;
