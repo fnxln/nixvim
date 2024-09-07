@@ -12,7 +12,23 @@
         nil-ls = {enable = true;};
         marksman = {enable = true;};
         pyright = {enable = true;};
-        gopls = {enable = true;};
+        gopls = {
+          enable = true;
+          extraOptions = {
+            gofumpt = true;
+            usePlaceholders = true;
+            codelenses = {
+              gc_details = false;
+              generate = true;
+              regenerate_cgo = true;
+              run_govulncheck = true;
+              test = true;
+              tidy = true;
+              upgrade_dependency = true;
+              vendor = true;
+            };
+          };
+        };
         terraformls = {enable = true;};
         tsserver = {enable = true;};
         ansiblels = {enable = true;};
