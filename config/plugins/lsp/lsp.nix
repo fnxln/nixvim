@@ -11,6 +11,7 @@
         lua-ls = {enable = true;};
         nil-ls = {enable = true;};
         marksman = {enable = true;};
+        templ = {enable = true;};
         pyright = {enable = true;};
         gopls = {
           enable = true;
