@@ -15,6 +15,12 @@
           clangd = {
             enable = true;
           };
+          gopls = {
+            enable = true;
+          };
+          templ = {
+            enable = true;
+          };
           lua_ls = {
             enable = true;
             extraOptions = {
