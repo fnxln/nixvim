@@ -16,6 +16,13 @@
             enable = true;
           };
           gopls = {
+            settings = {
+              analyses = {
+                unusedparams = true;
+                shadow = true;
+              };
+              staticcheck = true;
+            };
             enable = true;
           };
           templ = {
