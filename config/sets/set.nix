@@ -12,6 +12,7 @@
       # Enable relative line numbers
       number = true;
       relativenumber = true;
+      cliboard = "unnamedplus";
 
       # Set tabs to 2 spaces
       tabstop = 2;
@@ -86,7 +87,7 @@
       # Place a column line
       # colorcolumn = "120";
 
-      # Reduce which-key timeout 
+      # Reduce which-key timeout
       timeoutlen = 200;
 
       # Set encoding type
