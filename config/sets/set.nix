@@ -12,7 +12,7 @@
       # Enable relative line numbers
       number = true;
       relativenumber = true;
-      cliboard = "unnamedplus";
+      clipboard = "unnamedplus";
 
       # Set tabs to 2 spaces
       tabstop = 2;
