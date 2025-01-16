@@ -12,6 +12,20 @@
         enable = true;
         capabilities = "offsetEncoding = 'utf-16'";
         servers = {
+          emmet_ls = {
+            enable = true;
+            filetypes = [
+              "html"
+              "templ"
+            ];
+          };
+          tailwindcss = {
+            enable = true;
+            filetypes = [
+              "html"
+              "templ"
+            ];
+          };
           clangd = {
             enable = true;
           };
