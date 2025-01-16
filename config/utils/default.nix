@@ -20,6 +20,7 @@
     ./persistence.nix
     ./plenary.nix
     ./project-nvim.nix
+    ./direnv.nix
     ./sidebar.nix
     ./tmux-navigator.nix
     ./todo-comments.nix
@@ -49,6 +50,7 @@
     persistence.enable = lib.mkDefault true;
     plenary.enable = lib.mkDefault true;
     project-nvim.enable = lib.mkDefault true;
+    direnv.enable = lib.mkDefault true;
     sidebar.enable = lib.mkDefault false;
     tmux-navigator.enable = lib.mkDefault true;
     todo-comments.enable = lib.mkDefault true;
