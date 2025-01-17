@@ -131,7 +131,7 @@
           (padding 1)
           {
             type = "button";
-            val = "󰈭  Find Word";
+            val = "  Open Projects ";
             on_press = {
               __raw = "function() require('telescope.builtin').live_grep() end";
             };
@@ -139,15 +139,15 @@
               # hl = "comment";
               keymap = [
                 "n"
-                "g"
-                ":Telescope live_grep <CR>"
+                "p"
+                ":Telescope projects<CR>"
                 {
                   noremap = true;
                   silent = true;
                   nowait = true;
                 }
               ];
-              shortcut = "g";
+              shortcut = "p";
 
               position = "center";
               cursor = 3;
