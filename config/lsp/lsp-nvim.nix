@@ -12,6 +12,9 @@
         enable = true;
         capabilities = "offsetEncoding = 'utf-16'";
         servers = {
+          cssls = {
+            enable = true;
+          };
           emmet_ls = {
             enable = true;
             filetypes = [
