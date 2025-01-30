@@ -14,7 +14,11 @@
         servers = {
           postgres_lsp = {
             enable = true;
-            filetypes = [ "sql" ];
+            filetypes = [
+              "sql"
+              "pgsql"
+            ];
+
           };
           cssls = {
             enable = true;
