@@ -12,6 +12,10 @@
         enable = true;
         capabilities = "offsetEncoding = 'utf-16'";
         servers = {
+          postgres_lsp = {
+            enable = true;
+            filetypes = [ "sql" ];
+          };
           cssls = {
             enable = true;
           };
