@@ -8,17 +8,17 @@
       dap-ui = {
         enable = true;
         settings = {
-        floating.mappings = {
-          close = [
-            "<ESC>"
-            "q"
-          ];
+          floating.mappings = {
+            close = [
+              "<ESC>"
+              "q"
+            ];
+          };
         };
       };
-    };
-    dap-python = {
-          enable = true;
-        };
+      dap-python = {
+        enable = true;
+      };
     };
     plugins.dap = {
       enable = true;
@@ -38,7 +38,6 @@
       };
       # };
       extensions = {
-        
 
       };
       configurations = {
