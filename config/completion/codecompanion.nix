@@ -4,6 +4,32 @@
     codecompanion.enable = lib.mkEnableOption "Enable codecompletion module";
   };
   config = lib.mkIf config.codecompanion.enable {
+
+    keymaps = [
+      {
+        mode = [
+          "n"
+          "v"
+        ];
+        key = "<C-a>";
+        action = "<cmd>CodeCompanionActions<cr>";
+      }
+      {
+        mode = [
+          "n"
+          "v"
+        ];
+
+        key = "<LocalLeader>a";
+        action = "<cmd>CodeCompanionChat Toggle<cr>";
+      }
+      {
+        mode = "v";
+        key = "ga";
+        action = "<cmd>CodeCompanionChat Add<cr>";
+      }
+    ];
+
     plugins.codecompanion = {
       enable = true;
       settings = {
@@ -36,9 +62,13 @@
             adapter = "copilot";
           };
         };
+        opts = {
+          language = "Brazilian Portuguese";
+
+        };
         display = {
           action_palette = {
-            provider = "default";
+            provider = "telescope";
           };
           chat = {
             window = {
