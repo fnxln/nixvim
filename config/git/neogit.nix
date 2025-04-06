@@ -5,7 +5,7 @@
   };
   config = lib.mkIf config.neogit.enable {
     plugins.neogit = {
-      enable = false;
+      enable = true;
     };
     keymaps = [
       {
